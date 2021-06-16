@@ -23,7 +23,15 @@ const Accordion = ({ items }) => {
     );
   });
 
-  return <div className="ui styled accordion">{renderedItems}</div>;
+  return (
+    <div className="ui container">
+      <h1 className="h1Accordion">Top 5 reasons why you should learn React</h1>
+      <div className="ui fluid styled accordion">{renderedItems}</div>
+      <a href="https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d">
+        Font: Medium
+      </a>
+    </div>
+  );
 };
 
 export default Accordion;

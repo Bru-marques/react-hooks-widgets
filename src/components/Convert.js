@@ -33,8 +33,8 @@ const Convert = ({ language, text }) => {
   }, [language, debouncedText]);
 
   return (
-    <div>
-      <h1 className="ui header">{translated}</h1>
+    <div className="translateArea">
+      <h3 className="ui header ">{translated}</h3>
     </div>
   );
 };

@@ -1,0 +1,33 @@
+body {
+  /*background-color: #3f5a5d;*/
+  background-color: #6a6a70;
+}
+.button {
+  background-color: #3f5a5d !important;
+  color: #fff !important;
+}
+.container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+img {
+  height: 150px !important;
+}
+label {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-top: 4px !important;
+}
+.translateArea {
+  background-color: rgb(223, 221, 221);
+  padding: 13px;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+}
+.search {
+  margin-bottom: 2px;
+  padding: 20px 15px !important;
+}

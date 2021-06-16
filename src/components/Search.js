@@ -37,7 +37,7 @@ const Search = () => {
 
   const renderedResults = results.map((result) => {
     return (
-      <div key={result.pageid} className="item">
+      <div key={result.pageid} className=" ui container item search">
         <div className="right floated content">
           <a
             href={`https://en.wikipedia.org?curid=${result.pageid}`}
@@ -56,17 +56,18 @@ const Search = () => {
 
   return (
     <div>
-      <div className="ui form">
-        <div className="fiel">
+      <div className="ui container form  ">
+        <h1>Blog Search - Wikipedia</h1>
+        <div className="fiel ">
           <label>Enter Search Term</label>
           <input
             value={term}
             onChange={(e) => setTerm(e.target.value)}
-            className="input"
+            className="input "
           />
         </div>
       </div>
-      <div className="ui celled list">{renderedResults}</div>
+      <div className="ui celled list ">{renderedResults}</div>
     </div>
   );
 };
