@@ -4,7 +4,6 @@ In this small project I used Hooks to create state and update the search results
 
 This was a good way to undestand how functional components are much shorter, they contain less boilerplate code, and everything is contained in one function.
 
-» Netlify weblink: https://goofy-carson-7f0696.netlify.app/accordion
 
 ## Accordion widget
 
